@@ -1,0 +1,5 @@
+.env
+.specstory/**
+archive
+dist 
+node_modules
