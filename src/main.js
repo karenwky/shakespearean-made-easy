@@ -6,6 +6,8 @@ import {
     inject
 } from "@vercel/analytics"
 
+inject();
+
 const token =
     import.meta.env.VITE_GITHUB_TOKEN;
 
