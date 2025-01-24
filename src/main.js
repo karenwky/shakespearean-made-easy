@@ -2,6 +2,9 @@ import ModelClient from "@azure-rest/ai-inference";
 import {
     AzureKeyCredential
 } from "@azure/core-auth";
+import {
+    inject
+} from "@vercel/analytics"
 
 const token =
     import.meta.env.VITE_GITHUB_TOKEN;
@@ -100,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
             isLoading = true;
             button.disabled = true;
             button.textContent = 'Generating...';
-            
+
             console.log("Button clicked");
 
             // Generate sonnet

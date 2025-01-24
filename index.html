@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shakespearean Made Easy: An AI Sonnet Generator & Translator</title>
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
   <style>
     :root {
       --primary-brown: #8B7355;
@@ -80,13 +81,13 @@
     h1 {
       text-align: center;
       color: var(--dark-brown);
-      margin-bottom: 0.7rem; 
+      margin-bottom: 0.7rem;
     }
 
     .centered-text {
       text-align: center;
       color: var(--dark-brown);
-      margin-top: 0.7rem; 
+      margin-top: 0.7rem;
       font-style: italic;
     }
 
@@ -216,7 +217,7 @@
             <option value="Arabic">Arabic</option>
             <option value="Bengali">Bengali</option>
             <option value="Chinese (Simplified)">Chinese (Simplified)</option>
-            <option value="Chinese (Traditional)">Chinese (Traditional)</option>          
+            <option value="Chinese (Traditional)">Chinese (Traditional)</option>
             <option value="English" selected>English</option>
             <option value="French">French</option>
             <option value="German">German</option>
@@ -233,7 +234,7 @@
             <option value="Tamil">Tamil</option>
             <option value="Telugu">Telugu</option>
             <option value="Urdu">Urdu</option>
-            <option value="Vietnamese">Vietnamese</option>            
+            <option value="Vietnamese">Vietnamese</option>
           </select>
         </div>
       </div>
@@ -242,11 +243,13 @@
     <div class="box-container">
       <div class="box" id="sonnetBox">
         <h2>Generated Sonnet</h2>
-        <textarea id="sonnet" aria-label="Generated sonnet output" placeholder="Sonnet will appear here." readonly></textarea>
+        <textarea id="sonnet" aria-label="Generated sonnet output" placeholder="Sonnet will appear here."
+          readonly></textarea>
       </div>
       <div class="box" id="translateBox">
         <h2>Modern Translation</h2>
-        <textarea id="translation" aria-label="Translated sonnet output" placeholder="Translation will appear here." readonly></textarea>
+        <textarea id="translation" aria-label="Translated sonnet output" placeholder="Translation will appear here."
+          readonly></textarea>
       </div>
     </div>
   </div>
@@ -257,12 +260,12 @@
       </a>
       <a href="https://github.com/karenwky/shakespearean-made-easy" target="_blank">
         <i class="fa-brands fa-github fa-lg"></i>
-      </a>      
-      <a href="mailto:wongkayankaren@gmail.com">
+      </a>
+      <a href="mailto:wongkayankaren@gmail.com?subject=Shakespearean Made Easy Feedback">
         <i class="fas fa-envelope fa-lg"></i>
       </a>
     </div>
-  </div>  
+  </div>
   <script type="module" src="/src/main.js"></script>
   <script src="https://kit.fontawesome.com/37ae6ab279.js" crossorigin="anonymous"></script>
 </body>
