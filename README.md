@@ -12,7 +12,7 @@ An AI-powered Shakespeare sonnet generator and translator that brings the Bard's
 
 ## 🖼️ Preview
 
-[Project Screenshot (demo video work-in-progress)]
+https://github.com/user-attachments/assets/e791d499-47bb-4382-9a43-83e152771d46
 
 ## 🚀 Live Demo
 
@@ -21,7 +21,7 @@ Visit the live application: [Shakespearean Made Easy](https://shakespearean-made
 ## 🛠️ Technologies Used
 
 * Vite.js
-* GitHub Models
+* GitHub Models (Azure AI)
 * HTML5/CSS3
 * JavaScript (ES6+)
 * Font Awesome Icons
@@ -97,7 +97,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 * Shakespeare's timeless works for inspiration
 * [GitHub Models](https://docs.github.com/en/github-models/prototyping-with-ai-models) for powering the sonnet generation and translation
-* The open-source community for various tools and libraries
+* Cursor for AI coding assistant
 
 ## 📱 Responsive Design
 
