@@ -24,6 +24,7 @@ Visit the live application: [Shakespearean Made Easy](https://shakespearean-made
 * GitHub Models (Azure AI)
 * HTML5/CSS3
 * JavaScript (ES6+)
+* Vercel
 * Font Awesome Icons
 
 ## 📋 Available Themes
@@ -75,7 +76,7 @@ Contributions are welcomed! Here are some areas we'd love to see improved:
   * Error message shown in box value text, e.g., `Too many requests, please try again later.`
   * Re-enable "GO" button for running request again
 * Separate CSS file ✅ ([PR#2](https://github.com/karenwky/shakespearean-made-easy/pull/2))
-* Separate file to maintain theme and translation language selection list
+* Separate file to maintain theme and translation language selection list 
 * Dropdowns for selecting foundation models
 * Reposition copy buttons to align horizontally with h2, in the upper right corner of the box class
   <img width="482" alt="image" src="https://github.com/user-attachments/assets/1479a17c-eed2-4464-9cc6-d6ba8ec3d24f" />
